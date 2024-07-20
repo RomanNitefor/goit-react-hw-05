@@ -1,0 +1,18 @@
+.form {
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.btn {
+  background-color: #fff;
+  cursor: pointer;
+  border: 1px solid #696767;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background-color: #050505;
+  color: #fff;
+  border: 1px solid #050505;
+}

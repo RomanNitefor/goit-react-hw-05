@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.list {
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+}
+.li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.list:hover {
+  color: rgb(7, 5, 128);
+  font-weight: 600;
+}
+.img {
+  margin-top: 10px;
+  display: block;
+  width: 200px;
+  height: 100%;
+}
