@@ -32,7 +32,7 @@ export default function MovieDetailsPage() {
   }
 
   return (
-    <div>
+    <div className={css.content}>
       <Link
         className={css.btn}
         to={backLinkRef.current.pathname + backLinkRef.current.search}

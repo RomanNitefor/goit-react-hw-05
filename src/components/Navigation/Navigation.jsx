@@ -8,7 +8,7 @@ const makeActive = ({ isActive }) => {
 
 export default function Navigation() {
   return (
-    <header>
+    <header className={css.header}>
       <nav className={css.nav}>
         <NavLink to="/" className={makeActive}>
           Home

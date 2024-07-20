@@ -1,6 +1,6 @@
 .nav {
   display: flex;
-  gap: 5px;
+  gap: 16px;
 }
 
 .link {
@@ -11,6 +11,18 @@
   margin-bottom: 10px;
 }
 
+.link:hover {
+  text-decoration: underline;
+}
+
 .active {
-  color: rgb(172, 23, 23);
+  color: orangered;
+}
+.header {
+  background-color: #fff;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.25);
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
